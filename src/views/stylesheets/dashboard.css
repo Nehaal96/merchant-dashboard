@@ -1,0 +1,91 @@
+.banner-container {
+  max-width: auto;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  padding: 1em;
+  min-height: 20vh;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+
+.banner {
+  border: 1px solid #6a5e1f;
+  padding: 1em;
+  border-radius: 14px;
+  max-width: 10em;
+}
+
+.chart-container {
+  padding: 1em;
+  min-width: 50%;
+}
+
+.title {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 800;
+  padding: 0em 0.5em 0.5em;
+}
+.product-container {
+  padding: 1em;
+  border-radius: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 590px;
+  overflow: auto;
+}
+
+.product-information {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  padding: 1em;
+  min-height: 50%;
+  grid-template-columns: repeat(auto-fit, minmax(min(70%, 20em), 1fr));
+}
+.product-card,
+.banner {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.product-img {
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+  overflow: hidden;
+  border-radius: 16px 16px 4px 4px;
+}
+
+.product-title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+.product-description-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 1em 1em;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description-title {
+  font-size: 0.8em;
+  color: rgb(144, 144, 144);
+}
+
+.description-value {
+  font-size: 1em;
+  font-weight: 900;
+}
